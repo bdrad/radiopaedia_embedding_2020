@@ -1,0 +1,9 @@
+bcolz==1.2.1
+bs4==4.9.0
+requests==2.23.0
+pandas==1.0.3
+numpy==1.18.2
+torch==1.4.0
+torchtext==0.6.0
+sklearn==0.22.2.post1
+nltk==3.5
