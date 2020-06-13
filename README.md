@@ -4,7 +4,7 @@ Repository to accompany paper [cite here]
 ## Relevant Files
 Note: Each of the following file descriptions will include an 'Optional Arguments' section if there are optional arguments that can be passed on its execution. If omitted, the values of these arguments will always default to the values we used in the manuscript.
 
-### DataCollection.py
+### data_collection.py
 Run this python file to scrape the entire Articles section of the Radiopedia website. It creates a folder 'data,' and places inside a csv file 'articles.csv,' where each row contains the article text and a list of system labels.
 
 ### train_glove.py
@@ -38,3 +38,8 @@ Run this python file to perform 5x2 cross validation on a Radiopedia article lab
 * Run `DataCollection.py` to scrape the data from Radiopedia.
 * Run `train_glove.py` to generate the custom word embeddings.
 * Run `evaluate.py` to run the classifier and compare the custom embeddings with glove.6B.
+* Download pre-trained Radiopaedia embeddings [here](https://bit.ly/3e0t4lQ)
+
+## License
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
