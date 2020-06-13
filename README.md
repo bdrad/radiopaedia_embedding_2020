@@ -1,11 +1,11 @@
-# WordEmbed
+# Radiopaedia Embedding
 Repository to accompany paper [cite here]
 
 ## Relevant Files
 Note: Each of the following file descriptions will include an 'Optional Arguments' section if there are optional arguments that can be passed on its execution. If omitted, the values of these arguments will always default to the values we used in the manuscript.
 
 ### data_collection.py
-Run this python file to scrape the entire Articles section of the Radiopedia website. It creates a folder 'data,' and places inside a csv file 'articles.csv,' where each row contains the article text and a list of system labels.
+Run this python file to collect Articles section from the Radiopedia website. It creates a folder 'data,' and places inside a csv file 'articles.csv,' where each row contains the article text and a list of system labels.
 
 ### train_glove.py
 Run this python file to train custom word embeddings using the text scraped from Radiopedia. It generates four of these embeddings of the same dimensions used by Stanford NLP's glove6B model: 50d, 100d, 200d, 300d. It creates a folder 'custom' inside the 'vectors' folder [See Instructions for Running Locally] including a .txt representation for each of the custom word embeddings, identical to the glove6B format.
