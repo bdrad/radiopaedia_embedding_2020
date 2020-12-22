@@ -1,5 +1,5 @@
 # Radiopaedia Embedding
-Repository to accompany paper [cite here]
+Repository to accompany paper: Chen TL, Emerling M, Chaudhari GR, Chillakuru YR, Seo Y, Vu TH, Sohn JH. "Domain Specific Word Embeddings for Natural Language Processing in Radiology". J. Biomed. Inform. 2020, In Press. https://doi.org/10.1016/j.jbi.2020.103665
 
 ## Relevant Files
 Note: Each of the following file descriptions will include an 'Optional Arguments' section if there are optional arguments that can be passed on its execution. If omitted, the values of these arguments will always default to the values we used in the manuscript.
